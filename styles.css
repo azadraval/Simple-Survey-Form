@@ -1,0 +1,21 @@
+body{
+
+    width: 100%;
+    height: auto;
+    min-width:300px;
+    max-width:500px;
+    
+    
+     
+  
+  }
+  h1,p{
+    margin:0auto;
+    text-align:center;
+  }
+  checkbox,select,textarea{
+  background-color:hsl(100,100,100);
+  color:hsl(0,0,0);
+  
+  }
+  

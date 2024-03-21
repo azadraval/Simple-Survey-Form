@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill this survey form</p>
+    <form id="survey-form">
+    <fieldset>
+            <label id="name-label">Name:<input type="name" id="name"name="name"  class="form" required placeholder="Full Name"required/></label><br>
+      <br><label id="email-label">Email:<input type="email" id="email" name="email" lass="form" required placeholder="example@mail.com" required/ ></label><br>
+      <br><label id="number-label">Number:<input type="number" id="number" name="number" class="form" min="5" max="99" placeholder="5 to 99"required/></label>
+    </fieldset>
+    <fieldsset>
+      <label>Would you recommend this survey to your friends and family?
+        <br>        <input type="radio" name="radio" value="Maybe">Maybe
+        <br><input type="radio" name="radio" value="Yes">Yes</label><br>
+        <input type="radio" name="radio" value="No">No
+
+  
+    <br></fieldset>
+    <label for="referrer">How did you hear about us?<br>
+     <br><select id="dropdown" name="referrer">
+       <option>Not Selected</option>
+       <option>Instagram</option>
+       <option>Youtube</option>
+       <option>Others</option>
+       </select>
+       </label><br>
+       <fieldset>
+         <label>What do you want to improved</label><br>
+         <input type="checkbox" value="Customer services">Customer services
+         <br><input type="checkbox" value="Quality of Product" >Quality of Product
+       </fieldset>
+    
+     <br><label for="comment">Any Comments or suggestions?
+          <br><textarea id="comment" name="comment" rows="3" cols="30" placeholder="How was the survey..."></textarea>
+        </label id="submit">
+       <br><button type="submit" value="Submit" id="submit">Submit
+    
+    </form>
+
+  </body>
+  </html>
